@@ -1,0 +1,33 @@
+.header-image {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width:100%;
+}
+body {
+  font-family: fantasy;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+ul {
+  list-style-image: url('../img/planet-icon.png');
+  list-style-position: inside;
+}
+
+ul {
+  size:10px;
+}
