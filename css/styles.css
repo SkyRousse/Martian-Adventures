@@ -19,25 +19,27 @@
 }
 
 .image-lineup img {
-  height: 327px;
+  display: block;
 }
 
 body {
-  font-family: fantasy;
-  text-align: center;
+  font-family: monospace;
+  text-align: left;
+  padding: 0 60px;
+  font-size: 26px;
 }
 h1 {
-  text-align: center;
-  font-family: fantasy;
+  color:white;
+  background: red;
+  padding:20px;
 }
 
 p {
-  text-align: center;
+  color:red;
 }
 
 h3 {
-  text-align: center;
-  font-family: fantasy;
+
 }
 
 ul {
@@ -58,21 +60,23 @@ div {
 
 }
 
-.gray {
-  background-color: #eee;
-  padding-top:30px;
-  padding-bottom: 30px;
-}
+
 
 ul.menu li {
   list-style-type: none;
-  display: inline-block;
+  display: block;
   padding: 10px 30px;
-  background-color: #eee;
+  background-color: blue;
+  width:15%;
+  border: 1px solid white;
 }
+
 
 a {
   text-decoration: none;
+  color:orange;
+  font-weight: bold;
+
 }
 
 div img {
@@ -80,7 +84,6 @@ div img {
 }
 
 .second-level-heading {
-  background-color:#E0BAA4;
   padding: 30px 0;
   color:#6D320D;
 }
